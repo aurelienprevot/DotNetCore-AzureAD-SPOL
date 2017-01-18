@@ -18,6 +18,7 @@ https://blogs.msdn.microsoft.com/arsen/2015/09/18/certificate-based-auth-with-az
 
 
 Thanks to :
+
 https://blog.mastykarz.nl/azure-ad-app-only-access-token-using-certificate-dotnet-core/
 http://www.erwinmcm.com/azure-active-directory-app-only-authentication-with-officedev-pnp-powershell/
 https://blogs.msdn.microsoft.com/arsen/2015/09/18/certificate-based-auth-with-azure-service-principals-from-linux-command-line/
