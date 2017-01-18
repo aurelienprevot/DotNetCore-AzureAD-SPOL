@@ -1,0 +1,13 @@
+Procédure :
+
+1. Création de l'application dans Azure AD : https://manage.windowsazure.com/clouds-natives.com#Workspaces/ActiveDirectoryExtension/Directory/67e6cf1c-fe27-4968-a189-6393c0ef6aa8/apps
+2. Création du certificat sous Windows : certificat-creation.ps1
+3. Modification du manifest pour intégrer les infos du certificat
+4. dotnet new
+5. Ouverture VS Code
+6. Modification du Project.json (include files)
+7. Modification pour ajouter l'ID de l'application AAD (program.cs)
+8. Modification pour dire au code d'aller chercher le certificat (service principal.cs)
+9. dotnet run
+10. Création d'une application Web dans Azure
+11. Déploiement du webjob

@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true,
+    "copyToOutput": {
+      "includeFiles": [
+        "YOUR CERTIFICATE",
+        "run.cmd"
+      ]
+    }
+  },
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.1.0"
+    },
+    "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.13.8",
+    "Microsoft.IdentityModel.Tokens": "5.0.0"
+  },
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.1.0"
+        }
+      },
+      "imports": "portable-net45+win8+dnxcore50"
+    }
+  }
+}
